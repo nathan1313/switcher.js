@@ -16,10 +16,13 @@ Often numbers aren't added to the page in a uniform fashion. Search for multiple
 
 ##Multi-Param Example
 
-Normally calls would be generated from multiple advertisment sources. Simply compare all used paramaters in if statements
-	
+Normally calls would be generated from multiple advertisment sources. Simply compare all used paramaters in if statements.
+
+	if(ppcParam == "adwords"){
+	$("body *").replaceText( /1.555.555.5555|1-555-555-5555|555-555-5555|555.555.5555/gi, "555-555-5556" );
+	}
 	if(ppcParam == "yellowPages"){
 	$("body *").replaceText( /1.555.555.5555|1-555-555-5555|555-555-5555|555.555.5555/gi, "555-555-5557" );
 	}
-	
-This will display a different number than the example below only if "yellowPages" is the matched url parameter. 
+
+The phone number will only change if the parameter is matched. 
