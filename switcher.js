@@ -1,7 +1,7 @@
 $( document ).ready(function() {
-//Declare current number here.
+//Set current number here.
   var phoneNumber = "555-555-5555";
-//Declare replacement number. 
+//Set replacement number. 
   var newNumber = "555-555-5556";
 //url attribute to look for here. 
   var ppcString = "adwords";
