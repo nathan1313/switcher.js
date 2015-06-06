@@ -1,3 +1,4 @@
+//Example Values
 $( document ).ready(function() {
 //Set current number here.
   var phoneNumber = "555-555-5555";
